@@ -13,7 +13,6 @@ def dfs(start, graph):
                 visited.append(i)
                 cnt += 1
     return cnt
-
 T = int(sys.stdin.readline().rstrip())
 for _ in range(T):
     N, M = map(int, sys.stdin.readline().split())
@@ -23,6 +22,3 @@ for _ in range(T):
         graph[a].append(b)
         graph[b].append(a)
     print(dfs(1, graph))
-
-
-#탐색하는 코드
