@@ -34,7 +34,7 @@ Output: [2,3]
 
 ## 입력값
 
-- 2 <= nums.length <= 2 * 104
+- 2 <= nums.length <= 2 * 10^4
 - nums.length 는 짝수다.
 - nums 안에 있는 숫자 절반은 짝수다.
 - 0 <= nums[i] <= 1000
