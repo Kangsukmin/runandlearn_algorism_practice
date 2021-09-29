@@ -1,15 +1,13 @@
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
-        odd, even, result = [], [], []
+        for idx in range(len(nums)):
+            i = 0
+            while idx%2 == 0 and nums[idx]%2 != 0:
+                i += 1
+                nums[idx], nums[idx+i] = nums[idx+i], nums[idx]
+            
+            while idx%2 == 1 and nums[idx]%2 != 1:
+                i += 1
+                nums[idx], nums[idx+i] = nums[idx+i], nums[idx]
         
-        for num in nums:
-            if num%2 == 0:
-                even.append(num)
-            else:
-                odd.append(num)
-        
-        for i in range(len(even)):
-            result.append(even[i])
-            result.append(odd[i])
-        
-        return result
+        return nums
