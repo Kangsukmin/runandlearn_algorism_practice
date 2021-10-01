@@ -24,6 +24,6 @@ Output: false
 ## Constraints:
 
     1 <= k <= nums.length <= 16
-    1 <= nums[i] <= 104
+    1 <= nums[i] <= 10^4
     The frequency of each element is in the range [1, 4].
 
