@@ -8,20 +8,20 @@ Given an integer array nums and an integer k, return true if it is possible to d
 int 배열이 주어지고, int값 k가 주어진다. 만약 k개로 나눈 배열들의 각각의 합이 동일하면 True, 아니면 False를 반환하라.
  
 
-Example 1:
+## Example 1:
 
 Input: nums = [4,3,2,3,5,2,1], k = 4
 Output: true
 Explanation: It's possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3) with equal sums.
 
-Example 2:
+## Example 2:
 
 Input: nums = [1,2,3,4], k = 3
 Output: false
 
  
 
-Constraints:
+## Constraints:
 
     1 <= k <= nums.length <= 16
     1 <= nums[i] <= 104
