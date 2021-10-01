@@ -1,0 +1,2 @@
+1. [링크1](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/640/week-5-september-29th-september-30th/3993/)
+2. [링크2](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
