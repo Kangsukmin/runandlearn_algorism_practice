@@ -4,14 +4,14 @@ function word_to_charList(word: string): string[] {
 
 function intersections(first_char_list, second_char_list): string[] {
     const [first_char_list_copy, second_char_list_copy] = [[...first_char_list], [...second_char_list]]
-    const intersections_word = []
+    const intersections_char_list = []
     for(let char of first_char_list_copy) {
         if(second_char_list_copy.includes(char)) {
-            intersections_word.push(char)
+            intersections_char_list.push(char)
             second_char_list_copy.splice(second_char_list_copy.indexOf(char), 1)
         }
     }
-    return intersections_word
+    return intersections_char_list
 }
 
 function commonChars(words: string[]): string[] {
