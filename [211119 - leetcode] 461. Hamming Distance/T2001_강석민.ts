@@ -1,7 +1,5 @@
 function hammingDistance(x: number, y: number): number {
-    const [xLog, yLog] = [Math.log2(x), Math.log2(y)];
-    const exp = Math.max(Math.floor(xLog), Math.floor(yLog));
-    let div = 2 ** exp;
+    let div = 2 ** Math.max(Math.floor(Math.log2(x)), Math.floor(Math.log2(y)));
     let count = 0
     while (div >= 1) {
         if (Math.floor(x / div) !== Math.floor(y / div)) count += 1
