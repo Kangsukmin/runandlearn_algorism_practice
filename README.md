@@ -14,3 +14,5 @@
 ---
 
 # 런앤런 팀 알고리즘 연습
+
+- [이진 탐색](https://github.com/Kangsukmin/runandlearn_algorism_practice/wiki/%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89)
